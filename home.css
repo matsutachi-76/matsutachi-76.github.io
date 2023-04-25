@@ -1,0 +1,75 @@
+* {
+  font-family: 'M PLUS 1p', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  background-color: purple;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.banner {
+  float: left;
+  width: 25%;
+}
+
+.banner a {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  text-size: 18px;
+}
+
+.menu {
+  float: right;
+  width: 75%;
+}
+
+.menu li {
+  float: left;
+  width: auto;
+  margin: 10px;
+}
+
+.menu li a {
+  display: block;
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+  text-size: 14px;
+}
+
+.navlist {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.dp1, .dp2, .dp3, .dp4, .dp5 {
+  display: none;
+  background-color: purple;
+  position: absolute;
+  z-index: 25;
+  border-radius: 0 0 5px 5px;
+}
+
+.nav1:hover .dp1, .nav2:hover .dp2, .nav3:hover .dp3, .nav4:hover .dp4, .nav5:hover .dp5 {
+  display: block;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
