@@ -33,12 +33,12 @@ body {
 }
 
 .menu {
-  float: right;
+  float: left;
   width: 75%;
 }
 
 .menu li {
-  float: left;
+  float: right;
   width: auto;
   margin: 10px;
 }
