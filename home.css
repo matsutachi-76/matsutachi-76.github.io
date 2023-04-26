@@ -38,7 +38,7 @@ body {
 }
 
 .menu li {
-  float: right;
+  float: left;
   width: auto;
   margin: 10px;
 }
