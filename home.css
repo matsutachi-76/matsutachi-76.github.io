@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-  background-color: forestgreen;
+  background-color: purple;
   padding: 0;
   margin: 0;
 }
@@ -59,7 +59,7 @@ body {
 
 .dp1, .dp2, .dp3, .dp4, .dp5 {
   display: none;
-  background-color: forestgreen;
+  background-color: purple;
   position: absolute;
   z-index: 25;
   border-radius: 0 0 5px 5px;
@@ -84,10 +84,10 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 700px;
+  max-width: 2000px;
   position: relative;
   margin: auto;
-  padding: 0px 15px;
+  padding: 0;
   z-index: 10;
 }
 
