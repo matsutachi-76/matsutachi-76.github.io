@@ -11,6 +11,7 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
+  z-index: 150;
 }
 
 #navbar::after {
@@ -41,8 +42,6 @@ body {
 
 #extra {
   display: none;
-  position: relative;
-  z-index: 15;
 }
 
 #extra ul {
