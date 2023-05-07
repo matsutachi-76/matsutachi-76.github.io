@@ -11,103 +11,20 @@
     <title>matsutachi_76</title>
   </head>
   <body>
-
-    <nav class="navbar">
-      <div class="banner">
-        <a href="#">76</a>
+    <nav class="navbar"> 
+      <div class="logo">
+        <a href="index.html"></a>
       </div>
-
+      
       <div class="menu">
-        <ul class="navlist">
-          <li class="nav1">
-            <a href="#">新大陸</a>  
-          </li>
-          <li class="nav2">
-            <a href="#">明空</a>
-          </li>
-          <li class="nav3">
-            <a href="#">連鉄</a>
-          </li>
-          <li class="nav4">
-            <a href="#">月の宮</a>
-          </li>
-          <li class="nav5">
-            <a href="#">松達</a>
-          </li>
-          <li class="nav6">
-            <a href="#">その他</a>
-          </li>
-        </ul>
+        <div class="menulogo">
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </div>
+      
     </nav>
-
-    <div class="slideshow-container">
-
-      <div class="mySlides fade">
-        <img src="images/this_site_is_fiction.jpg" style="width:100%">
-      </div>
-      
-      <div class="mySlides fade">
-        <img src="images/misai-hot_springs01.png" style="width:100%">
-      </div>
-      
-      <div class="mySlides fade">
-        <img src="http://placekitten.com/800/600" style="width:100%">
-      </div>
-      
-      <a class="prev" onclick="plusSlides(-1)">❮</a>
-      <a class="next" onclick="plusSlides(1)">❯</a>
-      
-    </div>
-    <br>
-      
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span> 
-      <span class="dot" onclick="currentSlide(2)"></span> 
-      <span class="dot" onclick="currentSlide(3)"></span> 
-    </div>
-
-    <script>
-      let slideIndex = 1;
-      showSlides(slideIndex);
-      setTimeout(TimeKeepers, 5000);
-
-      function TimeKeepers() {
-        plusSlides(1);
-        setTimeout(TimeKeepers, 5000);
-      }
-
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
-      }
-
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-      }
-
-      function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {
-          slideIndex = 1;
-        }    
-        if (n < 1) {
-          slideIndex = slides.length
-        }
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
-      }
-    </script>
     
-    <div class="footer">
-      <h4>2023 matsutachi_76</h4>
-    </div>
   </body>
+    
+    
 </html>
