@@ -41,6 +41,8 @@ body {
 
 #extra {
   display: none;
+  position: relative;
+  z-index: 15;
 }
 
 #extra ul {
@@ -58,11 +60,6 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-.ind {
-  margin-top: 48px;
-  background-color: white;
 }
 
 .mySlides {
